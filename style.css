@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.accordion-item {
+	width: 500px;
+	margin: 10px 0px;
+}
+
+.accordion-item__title {
+	background-color: rgb(231, 231, 231);
+	padding: 15px 5px;
+}
+
+.accordion-item__content {
+	background-color: rgb(92, 92, 117);
+	padding: 5px;
+	display: none;
+}
